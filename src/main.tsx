@@ -7,7 +7,7 @@ import { NotFound } from "./pages/not-found";
 import { RegistrationForm } from "./pages/registration-form";
 
 const router = createBrowserRouter([
-  { path: "/", errorElement: <NotFound /> },
+  { path: "/", element: <NotFound />, errorElement: <NotFound /> },
   { path: "/home", element: <LandingPage />, errorElement: <NotFound /> },
   {
     path: "/register",
