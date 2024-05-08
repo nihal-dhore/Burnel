@@ -4,9 +4,16 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LandingPage } from "./pages/landing-page";
 import { NotFound } from "./pages/not-found";
+import { RegistrationForm } from "./pages/registration-form";
 
 const router = createBrowserRouter([
-  { path: "/", element: <LandingPage />, errorElement: <NotFound /> },
+  { path: "/", errorElement: <NotFound /> },
+  { path: "/home", element: <LandingPage />, errorElement: <NotFound /> },
+  {
+    path: "/register",
+    element: <RegistrationForm />,
+    errorElement: <NotFound />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

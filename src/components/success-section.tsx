@@ -4,7 +4,7 @@ import { Footer } from "./footer";
 import { Header } from "./header";
 import { Rectangles } from "./rectangles";
 import { Stats } from "./stats";
-export const Home = () => {
+export const SuccessSection = () => {
   return (
     <section className="relative flex flex-col items-center gap-y-28 last:gap-y-[52px]">
       <Header />

@@ -11,3 +11,7 @@ body {
 #grace {
   font-family: "Covered By Your Grace";
 }
+
+#carousel:hover #carousel-child {
+  background-color: #CAD0CB;
+}

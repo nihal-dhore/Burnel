@@ -1,4 +1,4 @@
-import { Home } from "../components/home";
+import { SuccessSection } from "../components/success-section";
 import { Navbar } from "../components/navbar";
 
 export const LandingPage = () => {
@@ -6,7 +6,7 @@ export const LandingPage = () => {
     <>
       <Navbar />
       <main className="flex flex-col mt-36">
-        <Home />
+        <SuccessSection />
       </main>
     </>
   );

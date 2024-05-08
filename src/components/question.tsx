@@ -11,16 +11,16 @@ export const Question = ({ que, ans }: QuestionProps) => {
     <div
       className={
         !collapsed
-          ? "flex flex-col mr-[74px] pb-6 mt-9 border-b-1 border-[#D7D7D7] last:border-none"
-          : "mr-[74px] pb-6 mt-9 border-b-1 border-[#D7D7D7] last:border-none"
+          ? "flex flex-col pb-6 pt-9 px-4 border-b-1 border-[#D7D7D7] last:border-non"
+          : "pb-6 pt-9 px-4 border-b-1 border-[#D7D7D7] last:border-none"
       }
     >
-      <div className="flex justify-between gap-x-8">
-        <div className="max-w-[411px] font-semibold text-xl">{que}</div>
-        <div
-          className="cursor-pointer text-2xl font-semibold text-black -mt-1"
-          onClick={() => setCollapsed(!collapsed)}
-        >
+      <div
+        className="flex justify-between gap-x-56 cursor-pointer"
+        onClick={() => setCollapsed(!collapsed)}
+      >
+        <div className="max-w-[480px] font-semibold text-xl ">{que}</div>
+        <div className=" text-2xl font-semibold text-black -mt-1">
           {collapsed ? "+" : "-"}
         </div>
       </div>
