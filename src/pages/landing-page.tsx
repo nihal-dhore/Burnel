@@ -1,4 +1,4 @@
-import { SuccessSection } from "../components/success-section";
+import { AchievementSection } from "../components/landing-page-body/achievement-section";
 import { Navbar } from "../components/navbar";
 
 export const LandingPage = () => {
@@ -6,7 +6,7 @@ export const LandingPage = () => {
     <>
       <Navbar />
       <main className="flex flex-col mt-36">
-        <SuccessSection />
+        <AchievementSection />
       </main>
     </>
   );

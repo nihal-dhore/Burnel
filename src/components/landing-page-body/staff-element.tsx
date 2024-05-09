@@ -1,4 +1,4 @@
-import Rocket from "../assets/rocket.svg";
+import Rocket from "../../assets/rocket.svg";
 export const Staff = () => {
   return (
     <div className="absolute top-[412px] -left-[58px] bg-white py-4 pr-8 pl-4 rounded-full shadow-sh flex items-center gap-x-4 hover:bg-secondaryButtonLight hover:transition transition">

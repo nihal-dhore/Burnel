@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Thence ReactJS Developer Assignment
 
-Currently, two official plugins are available:
+## Overview
+This project is the result of the ReactJS developer assignment given by Thence. The task was to develop the front end of a website using React JS based on the provided Figma design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React JS
+- TypeScript
+- React Router DOM
+- React Hook Form
+- Zod
 
-## Expanding the ESLint configuration
+## Project Structure
+- `src/`: Contains all the source code files.
+  - `components/`: React components used throughout the project.
+  - `pages/`: React components representing different pages of the website.
+  - `main.tsx`: Main entry point of the application.
+  - `index.tsx`: Root component rendering the application.
+  - `assets/`: Contains static assets.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Running the Project Locally
+Follow the instructions below to run the project locally on your machine:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/nihal-dhore/Burnel.git
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Install Dependencies:**
+   ```bash
+   cd your-repository
+   npm install
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in Browser:**
+   Once the server is up and running, open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the project.
+
+## Deployment
+The project has been deployed and is accessible [here](https://burnel-nihal-dhore.vercel.app/).
+
+---

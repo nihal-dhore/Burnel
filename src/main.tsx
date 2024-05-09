@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LandingPage } from "./pages/landing-page";
 import { NotFound } from "./pages/not-found";
 import { RegistrationForm } from "./pages/registration-form";
 
 const router = createBrowserRouter([
-  { path: "/", element: <NotFound />, errorElement: <NotFound /> },
+  { path: "/", element: <Navigate to={"/home"} />, errorElement: <NotFound /> },
   { path: "/home", element: <LandingPage />, errorElement: <NotFound /> },
   {
     path: "/register",

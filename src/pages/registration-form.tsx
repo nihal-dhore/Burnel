@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.svg";
 import Close from "../assets/close.svg";
-import { Form } from "../components/registration-form";
+import { Form } from "../components/registration-page-body/registration-form";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Completion } from "../components/completion";

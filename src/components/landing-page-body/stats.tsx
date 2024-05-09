@@ -1,4 +1,4 @@
-import "../switzer.css";
+import "../../switzer.css";
 import { ClientExpense } from "./client-expense-element";
 import { GirlImage } from "./girl-img-element";
 import { ReductionTime } from "./reduction-time-element";

@@ -1,5 +1,5 @@
 import { Carousel } from "./carousel";
-import Arrow from "../assets/arrow.svg";
+import Arrow from "../../assets/arrow.svg";
 
 export const CarouselElement = () => {
   return (

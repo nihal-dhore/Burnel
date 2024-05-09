@@ -1,4 +1,4 @@
-import Que from "../assets/question.svg";
+import Que from "../../assets/question.svg";
 import { Question } from "./question";
 export const AskQuestions = () => {
   return (

@@ -1,7 +1,7 @@
-import { RegistrationSchema } from "../schema/registration-schema";
+import { RegistrationSchema } from "../../schema/registration-schema";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import Warning from "../assets/warning.svg";
+import Warning from "../../assets/warning.svg";
 import { InputField } from "./input-field";
 
 export const Form = ({
@@ -35,7 +35,10 @@ export const Form = ({
       onSubmit={handleSubmit(onSubmit)}
       className="flex flex-col items-center gap-y-6 max-w-[417px]"
     >
-      <InputField register={register("username")} placeholder="Enter your name" />
+      <InputField
+        register={register("username")}
+        placeholder="Enter your name"
+      />
       <InputField register={register("email")} placeholder="Enter your email" />
       {isSubmitted && errors.email && (
         <div className="text-destructive text-start text-sm flex items-center gap-x-1 -m-3 w-full font-medium">

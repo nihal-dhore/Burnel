@@ -1,4 +1,4 @@
-import Rectangle from "../assets/rectangle.svg";
+import Rectangle from "../../assets/rectangle.svg";
 
 export const Rectangles = () => {
   return (

@@ -1,4 +1,4 @@
-import Spark from "../assets/spark.svg";
+import Spark from "../../assets/spark.svg";
 export const ReductionTime = () => {
   return (
     <div className="min-w-[267px] min-h-[239px] absolute top-[114px] -left-32 px-[30px] py-[35px] shadow-sh bg-white w-60 rounded-[27px] hover:bg-secondaryButtonLight hover:transition transition">

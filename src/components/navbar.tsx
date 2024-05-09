@@ -9,7 +9,6 @@ export const Navbar = () => {
           src={Logo}
           alt="Brunel"
           width={127.94}
-          height={47.39}
           className="cursor-pointer"
           onClick={() => {
             navigate("/home");
@@ -25,12 +24,7 @@ export const Navbar = () => {
         >
           Get Projects
         </button>
-        <button
-          className="px-12 bg-button text-white font-semibold rounded-full py-7 hover:bg-secondaryButtonDark transition hover:transition"
-          onClick={() => {
-            navigate("/register");
-          }}
-        >
+        <button className="px-12 bg-button text-white font-semibold rounded-full py-7 hover:bg-secondaryButtonDark transition hover:transition">
           Onboard Talent
         </button>
       </div>
