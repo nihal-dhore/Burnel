@@ -30,7 +30,7 @@ Follow the instructions below to run the project locally on your machine:
 
 2. **Install Dependencies:**
    ```bash
-   cd your-repository
+   cd Brunel
    npm install
    ```
 
